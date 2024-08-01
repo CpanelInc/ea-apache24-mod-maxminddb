@@ -1,9 +1,7 @@
-%global ns_name ea-apache24
-%global upstream_name mod-maxminddb
 %global tarball_path_name mod_maxminddb
 %global _httpd_apxs %{_root_bindir}/apxs
 
-Name: %{ns_name}-%{upstream_name}
+Name: ea-apache24-mod-maxminddb
 Version: 1.2.0
 Summary: This module allows you to query MaxMind DB files from Apache 2.2+ using the libmaxminddb library.
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4556 for more details
